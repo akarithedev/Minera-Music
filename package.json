@@ -1,0 +1,23 @@
+{
+  "name": "minera-music",
+  "version": "1.0.0",
+  "description": "A bot dedicated to music",
+  "main": "bot.js",
+  "scripts": {
+    "start": "nodemon bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maria",
+  "license": "ISC",
+  "dependencies": {
+    "ascii-table": "0.0.9",
+    "axios": "^0.21.1",
+    "discord.js": "^12.5.3",
+    "erela.js": "^2.3.3",
+    "fs": "0.0.1-security",
+    "glob": "^7.1.7",
+    "mongoose": "^5.13.3",
+    "parse-ms": "^2.1.0",
+    "util": "^0.12.3"
+  }
+}
